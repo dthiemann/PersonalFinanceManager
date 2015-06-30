@@ -25,25 +25,25 @@ namespace PersonalFinanceManager {
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.label1 = new System.Windows.Forms.Label();
+            this.headLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(61, 59);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(300, 100);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "This is a simple test label";
-            this.label1.Font = new Font(FontFamily.GenericSerif, 24); 
+            this.headLabel.AutoSize = true;
+            this.headLabel.Location = new System.Drawing.Point(61, 59);
+            this.headLabel.Name = "label1";
+            this.headLabel.Size = new System.Drawing.Size(300, 100);
+            this.headLabel.TabIndex = 0;
+            this.headLabel.Text = "This is a simple test label";
+            this.headLabel.Font = new Font(FontFamily.GenericSerif, 24); 
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1864, 946);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.headLabel);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -53,7 +53,7 @@ namespace PersonalFinanceManager {
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label headLabel;
     }
 }
 
